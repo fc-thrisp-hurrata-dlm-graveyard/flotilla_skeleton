@@ -1,11 +1,9 @@
 package fleet_skeleton
 
-import (
-	"github.com/thrisp/fleet"
-)
+import "github.com/thrisp/fleet"
 
 func FSkeletonTest(f *fleet.Context) {
-	f.Data(200, "", "fleetskeleton return value")
+	f.Data(200, "", []byte("fleetskeleton return value"))
 }
 
 func FskelCreate() (e *fleet.Engine) {
