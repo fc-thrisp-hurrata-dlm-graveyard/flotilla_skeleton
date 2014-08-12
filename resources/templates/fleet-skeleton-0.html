@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{ template "head" }}
+    {{ define "head" }}
+        <title></title>    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.5/angular.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.6.0/ui-bootstrap-tpls.min.js"></script>
+    {{ end }}
+</head>
+<body class="fleet-skeleton class container-fluid">
+    from """fleet-skeleton layout page"""<br>
+    {{ template "root"}}
+</body>
+{{ template "xjs" }}

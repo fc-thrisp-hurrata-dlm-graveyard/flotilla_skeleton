@@ -1,0 +1,6 @@
+#fs-head{height: 100px;position: relative; display: block;}
+#fs-content{min-height: 400px;background-color:blue;}
+.fs-row{padding: 10px;}
+.fs-left{padding-left: 10px;border-left:1px solid gray;}
+.fs-right{padding-left: 10px; border-left:1px solid gray;}
+#fs-foot{height: 150px;}
