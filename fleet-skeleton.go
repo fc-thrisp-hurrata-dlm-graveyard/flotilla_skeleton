@@ -7,7 +7,7 @@ func FSkeletonTest(f *fleet.Context) {
 }
 
 func FskelCreate() (e *fleet.Engine) {
-	e := fleet.Basic()
+	e = fleet.Basic()
 	e.GET("/fleet/skeleton/:test", FSkeletonTest)
 	return e
 }
