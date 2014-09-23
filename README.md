@@ -1,3 +1,3 @@
 #Flotilla_Skeleton
 
-Examples for creating  & extending [Flotilla web framework](https://github.com/thrisp/flotilla_skeleton) applications.
+Examples for creating  & extending [Flotilla web framework](http://github.com/thrisp/flotilla) applications.
